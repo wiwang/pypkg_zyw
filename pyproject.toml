@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pypkgs_zyw"
+version = "0.1.0"
+description = "Python package that eases the pain of code"
+authors = ["Zhiyong Wang"]
+license = "MIT"
+readme = "README.md"
+documentation = "https://pypkgs_zyw.readthedocs.io/en/latest/"
+homepage = "https://github.com/wiwang/pypkgs_zyw"
+repository = "https://github.com/wiwang/pypkgs_zyw"
+
+[tool.poetry.dependencies]
+python = "^3.7.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
